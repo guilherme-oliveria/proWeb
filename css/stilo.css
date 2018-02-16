@@ -1,0 +1,142 @@
+a:hover  {
+    background-color: #4caf50;
+    color: rgb(230, 220, 220);
+}
+
+.vertical{
+ size: 100px;
+align-content: left 10px;
+text-decoration: none;
+display: inline-block;
+}
+.menu-vertical{
+    margin-top: 35px;
+}
+a{
+    background-color: #3ea541;
+    color: rgb(230, 220, 220);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+
+table {
+    width:70%;
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+    background-color: #33a8df;
+}
+
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    margin-top: 24%;
+}
+
+
+.menu-horizontal ul{
+    list-style: none;
+    display: flex;
+}
+.bg-verde-musgo{
+    background-color:#4caf50 ;
+}
+body{
+    background-color: #d3ebe7;
+}
+.menu-horizontal a{
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+}
+
+.menu-horizontal li{
+    margin: 0 5px 0 5px;
+    padding: 5px 10px 5px 10px;
+
+}
+.menu-horizontal li:hover{
+    background-color: rgb(25, 194, 39); 
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid rgb(156, 15, 15);
+    padding: 1em;
+    overflow: hidden;
+}
+.bg-cinza-claro{
+    background-color: rgb(223, 223, 223);
+}
+/* conteudo*/
+.conteudo{
+    width: 100%;
+    margin-left: 5%;
+}
+
+.menu-vertical{
+    width:160px;
+}
+.menu-vertical a{
+   color: #333333;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   display: block;
+   padding: 5px 0 5px 15px;
+   width: 145px;
+}
+
+.menu-vertical a:hover{
+ background-color: rgb(167, 167, 167);
+ }
+ 
+.menu-vertical ul{
+    list-style: none; /* tirar ponto da lista*/
+    padding: 0;
+}
+
+.menu-vertical ul{
+   text-decoration:none ;/*tirar sumbriado*/
+   text-transform: uppercase;
+}
+
